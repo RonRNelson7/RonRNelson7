@@ -1,0 +1,46 @@
+CREATE TABLE Books (
+  id INTERGER PRIMARY KEY,
+  Title TEXT,
+  Series TEXT,
+  Author TEXT,
+  Book in Series INTERGER);
+  
+INSERT INTO Books  VALUES ( 1, 'Killing Floor', 'Jack_Reacher', 'Lee_Child', 4 );
+INSERT INTO Books  VALUES ( 2, 'Die Trying', 'Jack_Reacher', 'Lee_Child', 5 );
+
+INSERT INTO Books  VALUES ( 3, 'Term Limits', 'Mitch_Rapp', 'Vince_Flynn', 1 );
+INSERT INTO Books  VALUES ( 4, 'American Assassin', 'Mitch_Rapp', 'Vince_Flynn', 2 );
+INSERT INTO Books  VALUES ( 5, 'Kill Shot', 'Mitch_Rapp', 'Vince_Flynn', 3 );
+INSERT INTO Books  VALUES ( 6, 'Transfer of Power', 'Mitch_Rapp', 'Vince_Flynn', 4 );
+INSERT INTO Books  VALUES ( 7, 'The Third Option', 'Mitch_Rapp', 'Vince_Flynn', 5 );
+INSERT INTO Books  VALUES ( 8, 'Seperation of Power', 'Mitch_Rapp', 'Vince_Flynn', 6 );
+INSERT INTO Books  VALUES ( 9, 'Executive Power', 'Mitch_Rapp', 'Vince_Flynn', 7 );
+INSERT INTO Books  VALUES ( 10, 'Memorial Day', 'Mitch_Rapp', 'Vince_Flynn', 8 );
+INSERT INTO Books  VALUES ( 11, 'Consent to Kill', 'Mitch_Rapp', 'Vince_Flynn', 9 );
+
+INSERT into books VALUES ( 12, 'War Against the Mofia', 'Mack_Bolan_The_Executioner', 'Don_Pendleton', 1);
+INSERT into books VALUES ( 13, 'Battle Mask', 'Mack_Bolan_The_Executioner', 'Don_Pendleton', 2);
+INSERT into books VALUES ( 14, 'Death Squad', 'Mack_Bolan_The_Executioner', 'Don_Pendleton', 3);
+INSERT into books VALUES ( 15, 'Miami Massacure', 'Mack_Bolan_The_Executioner', 'Don_Pendleton', 4);
+
+INSERT into books VALUES ( 16,'Rainfall/A Clean Kill in Tokyo', 'John Rain', 'Barry Eisler', 1);
+INSERT into books VALUES ( 17, 'Hard Rain/A Lonely Resurrection', 'John Rain', 'Barry Eisler', 2);
+
+INSERT into books VALUES ( 18, 'The Lions of Lucerne', 'Scot Harvath', 'Brad Thor', 1);
+
+INSERT into books VALUES ( 19, 'The Kill Artist', 'Gabriel Allen', 'Daniel Silva', 1);
+
+INSERT into books VALUES ( 20, 'Game of Thrones', 'Song of Fire and Ice', 'George R R Martian', 1);
+INSERT into books VALUES ( 21, 'A Clash of Kings', 'Song of Fire and Ice', 'George R R Martian', 2);
+INSERT into books VALUES ( 22, 'A Storm of Swards', 'Song of Fire and Ice', 'George R R Martian', 1);
+
+INSERT into books VALUES ( 23, 'Rules of Prey', 'Lucas Davenport', 'John Sandford', 1);
+
+INSERT into books VALUES ( 24, 'Without Remorse', 'Clancyverse', 'Tom Clancy', 1);
+INSERT into books VALUES ( 25, 'Patriot Games', 'Clancyverse', 'Tom Clancy', 2);
+INSERT into books VALUES ( 26, 'The Hunt for Red October', 'Clancyverse', 'Tom Clancy', 4);
+INSERT into books VALUES ( 27, 'Clear & Present Danger', 'Clancyverse', 'Tom Clancy', 6);
+INSERT into books VALUES ( 28, 'The Sum of All Fears', 'Clancyverse', 'Tom Clancy', 7);
+INSERT into books VALUES ( 29, 'Rainbow Six', 'Clancyverse', 'Tom Clancy', 10);
+
+SELECT * FROM books;
