@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @RonRNelson7
 - 👀 I’m interested in Data Analytics and Clincal Data Management
 - 🌱 I’m currently learning SQL, Tableau, Power BI, R, Python and expanding Excel knowledge
-- 💞️ I’m looking to collaborate on Database management and Data Visualization
+- 💞️ I’m looking to collaborate on Database management and Data Visualization.
 Feel free to look around and reach out if you have any feedback/comments
 
 <!---
